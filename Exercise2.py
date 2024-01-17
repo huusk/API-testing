@@ -1,16 +1,12 @@
 import requests
 import pytest
-import csv
 
-#EXercise 1
-# 3 mur codend test data creat hiine. Ugugdsum data ni
-# country code - zip code - place
-#           us -    90210 - Beverly Hills
-#           it -    50123 - Firenze
-#           ca -      Y1A - Whitehorse
+def get_right_response():
+    response = requests.get("https://jsonplaceholder.typicode.com/users/1")
+    json_response = response.json()
+    assert json_response['name'] == "Leanne Graham"
 
-test_data_zip = [
-    ("us", "90210", "Beverly Hills"),
-    ("it","50123","Firenze"),
-    ("ca","Y1A","Whitehorse"),
-]
+
+# def test_get_equals_200():
+#     resp = requests.get("http://api.zippopotam.us/us/90210")
+#     assert resp.status_code== 122, "Get request failed"
