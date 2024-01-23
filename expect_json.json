@@ -1,0 +1,535 @@
+{
+  "expected": {
+    "result": {
+      "offer": [
+        {
+          "unit": "3000",
+          "period": "0",
+          "price": "6900",
+          "name": "6900 төг",
+          "cardType": "34000",
+          "description": [
+            "5GB дата | 5 хоног"
+          ],
+          "isAuto": "N",
+          "id": "99"
+        },
+        {
+          "unit": "5000",
+          "period": "0",
+          "price": "9900",
+          "name": "9900 төг",
+          "cardType": "33999",
+          "description": [
+            "15GB дата | 10 хоног "
+          ],
+          "isAuto": "N",
+          "id": "100"
+        }
+      ],
+      "unitPackages": [
+        {
+          "name": "Хоногтой",
+          "packages": [
+            {
+              "unit": "5000",
+              "period": "3",
+              "price": "5000",
+              "name": "5000 төг",
+              "cardType": "5",
+              "description": [],
+              "isAuto": "N",
+              "id": "42"
+            },
+            {
+              "unit": "1000",
+              "period": "30",
+              "price": "10000",
+              "name": "10000 төг",
+              "cardType": "7",
+              "description": [],
+              "isAuto": "N",
+              "id": "43"
+            },
+            {
+              "unit": "5000",
+              "period": "30",
+              "price": "15000",
+              "name": "15000 төг",
+              "cardType": "9",
+              "description": [],
+              "isAuto": "N",
+              "id": "44"
+            },
+            {
+              "unit": "5000",
+              "period": "30",
+              "price": "25000",
+              "name": "25000 төг",
+              "cardType": "33474",
+              "description": [
+                "10GB дата",
+                "Сүлжээндээ ∞ яриа"
+              ],
+              "isAuto": "N",
+              "id": "64"
+            },
+            {
+              "unit": "10000",
+              "period": "90",
+              "price": "40000",
+              "name": "40000 төг",
+              "cardType": "10221",
+              "description": [],
+              "isAuto": "N",
+              "id": "54"
+            },
+            {
+              "unit": "10000",
+              "period": "180",
+              "price": "70000",
+              "name": "70000 төг",
+              "cardType": "10220",
+              "description": [],
+              "isAuto": "N",
+              "id": "55"
+            },
+            {
+              "unit": "10000",
+              "period": "360",
+              "price": "120000",
+              "name": "120000 төг",
+              "cardType": "10219",
+              "description": [],
+              "isAuto": "N",
+              "id": "56"
+            }
+          ]
+        },
+        {
+          "name": "Хоноггүй",
+          "packages": [
+            {
+              "unit": "3000",
+              "period": "0",
+              "price": "3000",
+              "name": "3000 төг",
+              "cardType": "4",
+              "description": [],
+              "isAuto": "N",
+              "id": "47"
+            },
+            {
+              "unit": "3000",
+              "period": "0",
+              "price": "6900",
+              "name": "6900 төг",
+              "cardType": "34000",
+              "description": [
+                "5GB дата | 5 хоног"
+              ],
+              "isAuto": "N",
+              "id": "99"
+            },
+            {
+              "unit": "5000",
+              "period": "0",
+              "price": "9900",
+              "name": "9900 төг",
+              "cardType": "33999",
+              "description": [
+                "15GB дата | 10 хоног "
+              ],
+              "isAuto": "N",
+              "id": "100"
+            },
+            {
+              "unit": "20000",
+              "period": "0",
+              "price": "20000",
+              "name": "20000 төг",
+              "cardType": "33485",
+              "description": [],
+              "isAuto": "N",
+              "id": "66"
+            },
+            {
+              "unit": "50000",
+              "period": "0",
+              "price": "50000",
+              "name": "50000 төг",
+              "cardType": "33486",
+              "description": [],
+              "isAuto": "N",
+              "id": "65"
+            }
+          ]
+        }
+      ]
+    },
+    "resultCode": "000",
+    "resultStr": "Амжилттай!"
+  },
+  "request": {
+    "cmd": "unit",
+    "msisdn": "89132412"
+  },
+  "login_response":{
+    "result": {
+        "sent_msisdn": "86118513"
+    },
+    "resultCode": "000",
+    "resultStr": "Таны 86118513 дугаарт илгээсэн нэг удаагийн кодыг оруулна уу"
+  },
+  "login_request": {
+    "cmd": "smscode",
+    "msisdn": "86118513",
+    "domain": "unitel"
+  },
+  "after_login_request": {
+    "cmd": "loginsms",
+    "msisdn": "86118513",
+    "smscode": "0000"
+  },
+  "after_login_response": {
+    "result": {
+        "domain": "Unitel",
+        "display": "",
+        "type": "PPS",
+        "msisdn": "86118513",
+        "token": "",
+        "info": {
+            "user": {
+                "billType": "",
+                "productName": ""
+            }
+        }
+    },
+    "resultCode": "000",
+    "resultStr": "Амжилттай!"
+  },
+  "register_service_list": {
+    "result": {
+        "accountList": [
+            {
+                "name": "Юнител",
+                "accounts": [
+                    {
+                        "domain": "unitel",
+                        "msisdn": "89132412",
+                        "productName": "Smart Talk"
+                    }
+                ]
+            },
+            {
+                "name": "Гэр интернет",
+                "accounts": [
+                    {
+                        "domain": "ger",
+                        "msisdn": "86614476",
+                        "productName": "Гэр Интернэт"
+                    }
+                ]
+            }
+        ]
+    },
+    "resultCode": "000",
+    "resultStr": "Амжилттай!"
+},
+  "register_service_request": {
+            "cmd": "accountList",
+            "token": "PUYTACGPLDT153AVLZOH",
+            "msisdn": "89142412"
+    },
+  "payment_notlogin_req": {
+    "cmd":"getPayment",
+    "msisdn":"89142412"
+  },
+  "payment_notlogin_resp": {
+    "result": {
+        "currentMonth": 24100,
+        "payment": -33938,
+        "invoiceDate": "2023.12",
+        "invoiceStatus": "Төлөгдсөн байна"
+    },
+    "resultCode": "806",
+    "resultStr": "Төлөгдсөн байна"
+  },
+  "payment_options_req": {
+    "cmd":"paymentOptions",
+    "msisdn":"89142412"
+  },
+  "payment_options_resp": {
+    "result": {
+        "qpay": [
+            "mbank",
+            "khanbank",
+            "statebank",
+            "most",
+            "xacbank",
+            "capitronbank",
+            "tdbbank",
+            "bogdbank",
+            "statebankmongolia"
+        ],
+        "banks": [
+            "socialpay",
+            "tokipay",
+            "card"
+        ]
+    },
+    "resultCode": "000",
+    "resultStr": "Амжилттай!"
+  },
+  "univision_req": {
+    "cmd":"getSvodList",
+    "msisdn":"89142412",
+    "token":"MNZWKMVPEYRRECOTTMAX"
+  },
+  "univision_resp": {
+    "result": {
+        "list": {
+            "additional": [
+                {
+                    "date": "2024.02.21 00:00",
+                    "price": "9900",
+                    "name": "Монгол багц",
+                    "externalId": "SVOD_MONGOLIA",
+                    "isAuto": "Автомат сунгалттай",
+                    "id": "2",
+                    "isActivated": "0",
+                    "day": "30 хоног"
+                },
+                {
+                    "date": "2024.02.21 00:00",
+                    "price": "9900",
+                    "name": "Ази багц",
+                    "externalId": "SVOD_ASIA",
+                    "isAuto": "Автомат сунгалттай",
+                    "id": "3",
+                    "isActivated": "0",
+                    "day": "30 хоног"
+                },
+                {
+                    "date": "2024.02.21 00:00",
+                    "price": "19900",
+                    "name": "Бүх багц/Холливуд, Ази, Монгол/",
+                    "externalId": "SP_SVOD_ALL",
+                    "isAuto": "Автомат сунгалттай",
+                    "id": "4",
+                    "isActivated": "0",
+                    "day": "30 хоног"
+                },
+                {
+                    "date": "2024.02.21 00:00",
+                    "price": "9900",
+                    "name": "Гэрийн TomYo багц",
+                    "externalId": "SVOD_TUTOR",
+                    "isAuto": "Автомат сунгалттай",
+                    "id": "5",
+                    "isActivated": "0",
+                    "day": "30 хоног"
+                },
+                {
+                    "date": "2024.02.21 00:00",
+                    "price": "9900",
+                    "name": "Хит цуврал багц",
+                    "externalId": "SVOD_HIT",
+                    "isAuto": "Автомат сунгалттай",
+                    "id": "6",
+                    "isActivated": "0",
+                    "day": "30 хоног"
+                },
+                {
+                    "date": "2024.02.21 00:00",
+                    "price": "9900",
+                    "name": "Орос - Европ багц",
+                    "externalId": "SVOD_RUSSIA",
+                    "isAuto": "Автомат сунгалттай",
+                    "id": "7",
+                    "isActivated": "0",
+                    "day": "30 хоног"
+                },
+                {
+                    "date": "2024.02.21 00:00",
+                    "price": "9900",
+                    "name": "Хүүхдийн багц",
+                    "externalId": "SVOD_KIDS",
+                    "isAuto": "Автомат сунгалттай",
+                    "id": "8",
+                    "isActivated": "0",
+                    "day": "30 хоног"
+                },
+                {
+                    "date": "2024.02.21 00:00",
+                    "price": "9900",
+                    "name": "HBO багц",
+                    "externalId": "SP_CPK_SVOD_HBO",
+                    "isAuto": "Автомат сунгалттай",
+                    "id": "9",
+                    "isActivated": "0",
+                    "day": "30 хоног"
+                },
+                {
+                    "date": "2024.02.21 00:00",
+                    "price": "9900",
+                    "name": "Аниме багц",
+                    "externalId": "SVOD_ANIME",
+                    "isAuto": "Автомат сунгалттай",
+                    "id": "11",
+                    "isActivated": "0",
+                    "day": "30 хоног"
+                },
+                {
+                    "date": "2024.02.21 00:00",
+                    "price": "9900",
+                    "name": "Хятад багц",
+                    "externalId": "SVOD_CHINESE",
+                    "isAuto": "Автомат сунгалттай",
+                    "id": "12",
+                    "isActivated": "0",
+                    "day": "30 хоног"
+                }
+            ],
+            "free": [
+                {
+                    "date": "",
+                    "price": "Үнэгүй",
+                    "name": "Холливуд багц",
+                    "externalId": "",
+                    "isAuto": "",
+                    "id": "",
+                    "isActivated": "",
+                    "day": ""
+                }
+            ],
+            "activated": []
+        },
+        "msisdn": "89142412"
+    },
+    "resultCode": "000",
+    "resultStr": "Амжилттай!"
+},
+  "info_req": {
+    "cmd":"info",
+    "msisdn":"89142412",
+    "token":"MNZWKMVPEYRRECOTTMAX"
+  },
+  "info_resp": {
+    "result": {
+        "isPay": "0",
+        "balance": [
+            {
+                "name": "Дата",
+                "amount": "3.0 GB"
+            },
+            {
+                "name": "Яриа",
+                "description": "Сүлжээндээ",
+                "amount": "∞"
+            },
+            {
+                "name": "Яриа",
+                "description": "Бусад сүлжээнд",
+                "amount": "400мин"
+            },
+            {
+                "name": "U-Point",
+                "amount": "2013"
+            }
+        ],
+        "domain": "Unitel",
+        "display": "",
+        "bill": {
+            "currentMonth": 24100,
+            "payment": -33938,
+            "invoiceDate": "2023.12",
+            "invoiceStatus": "Төлөгдсөн байна"
+        },
+        "expireDate": "2024.01 сар",
+        "type": "PS",
+        "msisdn": "89142412",
+        "user": {
+            "date": "2024.01.01-22",
+            "billType": "postpaid",
+            "state": "active",
+            "productName": "Багц 20`000"
+        }
+    },
+    "resultCode": "000",
+    "resultStr": "89142412"
+},
+  "usageDetails_req": {
+    "cmd":"usageDetails",
+    "msisdn":"89142412",
+    "token":"MNZWKMVPEYRRECOTTMAX"
+  },
+  "usageDetails_resp":{
+    "result": {
+        "date": "2024.01.01 - 2024.01.31",
+        "package": {
+            "account_switch_name": "Багц 20`000",
+            "type": "Дараа төлбөрт ",
+            "display_name": "Дараа төлбөрт | Багц 20`000"
+        },
+        "additional": [
+            {
+                "date": "2023.09.27 14:24 - 2024.05.01 00:00",
+                "initial": "0.00",
+                "name": "Дата",
+                "available": "0.00",
+                "units": "GB",
+                "usageType": "data"
+            },
+            {
+                "date": "2024.01.01 00:00 - 2024.01.31 23:59",
+                "initial": "1.00",
+                "name": "Дата",
+                "available": "1.00",
+                "units": "GB",
+                "usageType": "data"
+            }
+        ],
+        "main": [
+            {
+                "date": "2023.12.01 00:00 - 2024.01.31 23:59",
+                "initial": "200",
+                "available": "200",
+                "name": "Яриа",
+                "units": "мин",
+                "usageType": "voice"
+            },
+            {
+                "date": "2023.12.01 00:00 - 2024.01.31 23:59",
+                "initial": "2.00",
+                "available": "2.00",
+                "name": "Дата",
+                "units": "GB",
+                "usageType": "data"
+            }
+        ]
+    },
+    "resultCode": "000",
+    "resultStr": "Амжилттай!"
+},
+  "vat_req":  {
+    "vat": {
+        "vat_corp": "",
+        "vat_type": "self",
+        "isOnce": "YES"
+    },
+    "cmd": "checkPay",
+    "topay": [
+        {
+            "amount": "100",
+            "msisdn": "86119228",
+            "upoint": 0
+        }
+    ],
+    "msisdn": "89132412",
+    "upoint": "0",
+    "option": "mbank"
+  }
+
+}
+

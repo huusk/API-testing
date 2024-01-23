@@ -1,0 +1,21 @@
+stages:
+  - setup
+  - test
+
+before_script:
+  - python -m venv venv
+  - source venv/bin/activate
+  - pip install -r requirements.txt
+
+setup_job:
+  stage: setup
+  script:
+    - echo "Setting up environment..."
+    # Add any other setup steps if needed
+
+test_job:
+  stage: test
+  script:
+    - python run_tests.py
+  tags:
+    - your-docker-runner-tag
